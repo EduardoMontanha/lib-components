@@ -1,6 +1,7 @@
 import './App.css';
 import { ThemeProvider } from '@mui/material';
 import Botao from './components/Botao';
+import Botao2 from './components/Botao2';
 import Input from './components/Input';
 import theme from './context/theme';
 
@@ -13,6 +14,7 @@ function App() {
 
           <Input />
           <Botao />
+          <Botao2 />
         </header>
       </div>
     </ThemeProvider>
